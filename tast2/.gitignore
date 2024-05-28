@@ -1,0 +1,19 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform lock files
+*.terraform.lock.hcl*
+
+# Ignore .terraform directories
+**/.terraform/*
+
+# Ignore executable files
+*.exe
+
+# Ignore JSON files
+*.json
+
+# Specifically, if you want to ignore only certain JSON files related to Terraform, you can be more specific:
+terraform-plan.json
+terraform-output.json
